@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  CustomCamera
+//
+//  Created by WuYaoDong on 2017/6/23.
+//  Copyright © 2017年 TMS. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <SDAutoLayout.h>
+#import "GPUImage.h"
+
+#define Device_Height [[UIScreen mainScreen] bounds].size.height
+#define Device_Width  [[UIScreen mainScreen] bounds].size.width
+#define LBColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define  ScreenScale  Device_Width/375
+
+#endif /* PrefixHeader_pch */
